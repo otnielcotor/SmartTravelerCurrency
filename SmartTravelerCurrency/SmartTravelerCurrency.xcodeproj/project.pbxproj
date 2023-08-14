@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6DD1A42A816A11003D18B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1A32A816A11003D18B1 /* AppDelegate.swift */; };
+		4C6DD1A62A816A11003D18B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1A52A816A11003D18B1 /* SceneDelegate.swift */; };
+		4C6DD1A82A816A11003D18B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1A72A816A11003D18B1 /* ViewController.swift */; };
+		4C6DD1AB2A816A11003D18B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6DD1A92A816A11003D18B1 /* Main.storyboard */; };
+		4C6DD1AE2A816A11003D18B1 /* SmartTravelerCurrency.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1AC2A816A11003D18B1 /* SmartTravelerCurrency.xcdatamodeld */; };
+		4C6DD1B02A816A12003D18B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6DD1AF2A816A12003D18B1 /* Assets.xcassets */; };
+		4C6DD1B32A816A12003D18B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6DD1B12A816A12003D18B1 /* LaunchScreen.storyboard */; };
+		4C6DD1BB2A816A2C003D18B1 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1BA2A816A2C003D18B1 /* CurrencyView.swift */; };
+		4C6DD1BD2A816A66003D18B1 /* CurrencyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6DD1BC2A816A66003D18B1 /* CurrencyView.xib */; };
+		4C6DD1C12A82C31C003D18B1 /* CurrencyConverterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1C02A82C31C003D18B1 /* CurrencyConverterResponse.swift */; };
+		4C6DD1C42A855E06003D18B1 /* CurrencyConverterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1C32A855E06003D18B1 /* CurrencyConverterManager.swift */; };
+		4C6DD1C62A8562B3003D18B1 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1C52A8562B3003D18B1 /* CurrencyModel.swift */; };
+		4C6DD1C82A87E64E003D18B1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1C72A87E64E003D18B1 /* Reachability.swift */; };
+		4C6DD1CE2A894B87003D18B1 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4C6DD1CD2A894B87003D18B1 /* IQKeyboardManagerSwift */; };
+		4C6DD1D02A894CFE003D18B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DD1CF2A894CFE003D18B1 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C6DD1A02A816A11003D18B1 /* SmartTravelerCurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTravelerCurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6DD1A32A816A11003D18B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C6DD1A52A816A11003D18B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C6DD1A72A816A11003D18B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C6DD1AA2A816A11003D18B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C6DD1AD2A816A11003D18B1 /* SmartTravelerCurrency.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartTravelerCurrency.xcdatamodel; sourceTree = "<group>"; };
+		4C6DD1AF2A816A12003D18B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C6DD1B22A816A12003D18B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C6DD1B42A816A12003D18B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6DD1BA2A816A2C003D18B1 /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		4C6DD1BC2A816A66003D18B1 /* CurrencyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyView.xib; sourceTree = "<group>"; };
+		4C6DD1C02A82C31C003D18B1 /* CurrencyConverterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterResponse.swift; sourceTree = "<group>"; };
+		4C6DD1C32A855E06003D18B1 /* CurrencyConverterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterManager.swift; sourceTree = "<group>"; };
+		4C6DD1C52A8562B3003D18B1 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		4C6DD1C72A87E64E003D18B1 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4C6DD1CF2A894CFE003D18B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6DD19D2A816A11003D18B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6DD1CE2A894B87003D18B1 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C6DD1972A816A11003D18B1 = {
+			isa = PBXGroup;
+			children = (
+				4C6DD1A22A816A11003D18B1 /* SmartTravelerCurrency */,
+				4C6DD1A12A816A11003D18B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6DD1A12A816A11003D18B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6DD1A02A816A11003D18B1 /* SmartTravelerCurrency.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6DD1A22A816A11003D18B1 /* SmartTravelerCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				4C6DD1CF2A894CFE003D18B1 /* Constants.swift */,
+				4C6DD1C22A82C333003D18B1 /* Model */,
+				4C6DD1BE2A82C225003D18B1 /* View */,
+				4C6DD1A32A816A11003D18B1 /* AppDelegate.swift */,
+				4C6DD1A52A816A11003D18B1 /* SceneDelegate.swift */,
+				4C6DD1BF2A82C26F003D18B1 /* Controller */,
+				4C6DD1AF2A816A12003D18B1 /* Assets.xcassets */,
+				4C6DD1B12A816A12003D18B1 /* LaunchScreen.storyboard */,
+				4C6DD1B42A816A12003D18B1 /* Info.plist */,
+				4C6DD1AC2A816A11003D18B1 /* SmartTravelerCurrency.xcdatamodeld */,
+			);
+			path = SmartTravelerCurrency;
+			sourceTree = "<group>";
+		};
+		4C6DD1BE2A82C225003D18B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C6DD1A92A816A11003D18B1 /* Main.storyboard */,
+				4C6DD1BC2A816A66003D18B1 /* CurrencyView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C6DD1BF2A82C26F003D18B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C6DD1A72A816A11003D18B1 /* ViewController.swift */,
+				4C6DD1BA2A816A2C003D18B1 /* CurrencyView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C6DD1C22A82C333003D18B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C6DD1C02A82C31C003D18B1 /* CurrencyConverterResponse.swift */,
+				4C6DD1C32A855E06003D18B1 /* CurrencyConverterManager.swift */,
+				4C6DD1C52A8562B3003D18B1 /* CurrencyModel.swift */,
+				4C6DD1C72A87E64E003D18B1 /* Reachability.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6DD19F2A816A11003D18B1 /* SmartTravelerCurrency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6DD1B72A816A12003D18B1 /* Build configuration list for PBXNativeTarget "SmartTravelerCurrency" */;
+			buildPhases = (
+				4C6DD19C2A816A11003D18B1 /* Sources */,
+				4C6DD19D2A816A11003D18B1 /* Frameworks */,
+				4C6DD19E2A816A11003D18B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTravelerCurrency;
+			packageProductDependencies = (
+				4C6DD1CD2A894B87003D18B1 /* IQKeyboardManagerSwift */,
+			);
+			productName = SmartTravelerCurrency;
+			productReference = 4C6DD1A02A816A11003D18B1 /* SmartTravelerCurrency.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6DD1982A816A11003D18B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4C6DD19F2A816A11003D18B1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C6DD19B2A816A11003D18B1 /* Build configuration list for PBXProject "SmartTravelerCurrency" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C6DD1972A816A11003D18B1;
+			packageReferences = (
+				4C6DD1CC2A894B87003D18B1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 4C6DD1A12A816A11003D18B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6DD19F2A816A11003D18B1 /* SmartTravelerCurrency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6DD19E2A816A11003D18B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6DD1B32A816A12003D18B1 /* LaunchScreen.storyboard in Resources */,
+				4C6DD1B02A816A12003D18B1 /* Assets.xcassets in Resources */,
+				4C6DD1AB2A816A11003D18B1 /* Main.storyboard in Resources */,
+				4C6DD1BD2A816A66003D18B1 /* CurrencyView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6DD19C2A816A11003D18B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6DD1A82A816A11003D18B1 /* ViewController.swift in Sources */,
+				4C6DD1BB2A816A2C003D18B1 /* CurrencyView.swift in Sources */,
+				4C6DD1C62A8562B3003D18B1 /* CurrencyModel.swift in Sources */,
+				4C6DD1C42A855E06003D18B1 /* CurrencyConverterManager.swift in Sources */,
+				4C6DD1C12A82C31C003D18B1 /* CurrencyConverterResponse.swift in Sources */,
+				4C6DD1D02A894CFE003D18B1 /* Constants.swift in Sources */,
+				4C6DD1C82A87E64E003D18B1 /* Reachability.swift in Sources */,
+				4C6DD1AE2A816A11003D18B1 /* SmartTravelerCurrency.xcdatamodeld in Sources */,
+				4C6DD1A42A816A11003D18B1 /* AppDelegate.swift in Sources */,
+				4C6DD1A62A816A11003D18B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C6DD1A92A816A11003D18B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6DD1AA2A816A11003D18B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C6DD1B12A816A12003D18B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6DD1B22A816A12003D18B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6DD1B52A816A12003D18B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C6DD1B62A816A12003D18B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6DD1B82A816A12003D18B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9F6UYYA5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartTravelerCurrency/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotinel.SmartTravelerCurrency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C6DD1B92A816A12003D18B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9F6UYYA5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartTravelerCurrency/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotinel.SmartTravelerCurrency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6DD19B2A816A11003D18B1 /* Build configuration list for PBXProject "SmartTravelerCurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6DD1B52A816A12003D18B1 /* Debug */,
+				4C6DD1B62A816A12003D18B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6DD1B72A816A12003D18B1 /* Build configuration list for PBXNativeTarget "SmartTravelerCurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6DD1B82A816A12003D18B1 /* Debug */,
+				4C6DD1B92A816A12003D18B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C6DD1CC2A894B87003D18B1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C6DD1CD2A894B87003D18B1 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C6DD1CC2A894B87003D18B1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4C6DD1AC2A816A11003D18B1 /* SmartTravelerCurrency.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C6DD1AD2A816A11003D18B1 /* SmartTravelerCurrency.xcdatamodel */,
+			);
+			currentVersion = 4C6DD1AD2A816A11003D18B1 /* SmartTravelerCurrency.xcdatamodel */;
+			path = SmartTravelerCurrency.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C6DD1982A816A11003D18B1 /* Project object */;
+}
